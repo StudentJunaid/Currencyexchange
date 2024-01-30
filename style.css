@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: magenta;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://store-images.s-microsoft.com/image/apps.3790.13746602931236419.ec145616-d3b2-4fef-b955-55708f912cfd.44b1adcc-6220-448a-ada7-ec31717c5e62?mode=scale&q=90&h=1080&w=1920');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-image: url('https://www.smartcurrencyexchange.com/media/pound-sterling-400x250.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: whitesmoke;
+    width: 40vw;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.container form{
+    margin-top: 1rem;
+}
+
+.container input{
+    width: 100%;
+    padding-left: 1rem;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.container input, button{
+    width: 100%;
+}
+
+form i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    width: auto;
+}
+
+.select-container select{
+      font-size: 1rem;
+      border: none;
+      outline: none;
+}
+
+.select-container img{
+        width: 2rem;
+}
+
+form .msg{
+    margin: 1rem 0;
+}
+
+button{
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
