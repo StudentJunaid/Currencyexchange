@@ -81,6 +81,13 @@ form i{
 
 form .msg{
     margin: 1rem 0;
+    font-size: 23px;
+    color: purple;
+    font-weight: 800;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 3px;
+    border-radius: 4px;
 }
 
 button{
